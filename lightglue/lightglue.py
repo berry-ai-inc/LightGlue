@@ -346,7 +346,7 @@ class LightGlue(nn.Module):
     required_data_keys = ["image0", "image1"]
 
     version = "v0.1_arxiv"
-    url = "https://github.com/cvg/LightGlue/releases/download/{}/{}.pth"
+    url = "https://github.com/berry-ai-inc/LightGlue/releases/download/{}/{}.pth"
 
     features = {
         "superpoint": {
